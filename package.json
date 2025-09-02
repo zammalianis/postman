@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "api-tests-production": "newman run tests/jsonplaceholder.com.postman_collection.json"
   },
   "author": "anis",
   "license": "ISC",
